@@ -18,4 +18,4 @@ def test(date):
   Month=monthmap[date[1].lower()]
 
   return str(date[2])+'-'+Month+'-'+day.zfill(2)
-test('7th Apr 1904')
+test('7th Apr 1944')
